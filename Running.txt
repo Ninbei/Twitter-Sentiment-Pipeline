@@ -1,0 +1,9 @@
+There are three processes to run for Twitter Sentiment Pipeline:
+
+step 1: python twitter_client.py
+
+step 2: spark-submit --packages org.apache.spark:spark-streaming-kafka_2.10:1.5.1 twitter_sentiment.py
+
+step 3: python twitter_display.py
+
+step 4: open index.html, profit.
